@@ -1,0 +1,19 @@
+{
+  "packageId": "wpkvaNpJiDstV",
+  "spaceId": "spczdmQDfBAn5",
+  "entry": "./src/index.ts",
+  "name": {
+    "zh-CN": "developerTemplate",
+    "en-US": "developerTemplate"
+  },
+  "icon": "./package_icon.png",
+  "cover": "./cover.png",
+  "authorName": "Vika",
+  "authorIcon": "./author_icon.png",
+  "authorLink": "https://vika.cn",
+  "authorEmail": "dev@vikadata.com",
+  "description": {
+    "zh-CN": "developerTemplate 的描述",
+    "en-US": "developerTemplate description"
+  }
+}
