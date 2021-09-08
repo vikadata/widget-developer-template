@@ -1,11 +1,11 @@
-import { useActiveViewId, useMeta, usePrimaryField, useView } from '@vika/widget-sdk';
+import { useActiveViewId, useMeta, usePrimaryField, useViewMeta } from '@vika/widget-sdk';
 import React from 'react';
 
 export const Information: React.FC = () => {
   // 新建图表需要的上下文
   const meta = useMeta();
   const activeViewId = useActiveViewId();
-  const view = useView(activeViewId);
+  const view = useViewMeta(activeViewId);
   const primaryField = usePrimaryField();
   return (
     <div>

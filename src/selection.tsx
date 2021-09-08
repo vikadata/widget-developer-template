@@ -1,15 +1,15 @@
 import {
-  useDefaultView, useRecords, useActiveCell, useRecord, useFields, useSelection,
+  useRecords, useActiveCell, useRecord, useFields, useSelection, useActiveViewId,
 } from '@vika/widget-sdk';
 import React from 'react';
 
 export const Selection: React.FC = () => {
-  const view = useDefaultView();
+  const viewId = useActiveViewId();
   const activeCell = useActiveCell();
   const activeRecord = useRecord(activeCell?.recordId);
   const selection = useSelection();
-  const fields = useFields(view.id, {ids: selection?.fieldIds});
-  const records = useRecords(view.id, {ids: selection?.recordIds});
+  const fields = useFields(viewId, {ids: selection?.fieldIds});
+  const records = useRecords(viewId, {ids: selection?.recordIds});
 
   return (
     <div>
