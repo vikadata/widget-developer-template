@@ -1,7 +1,7 @@
 {
   "packageId": "wpkvaNpJiDstV",
   "spaceId": "spczdmQDfBAn5",
-  "entry": "./src/index.ts",
+  "entry": "./src/index.tsx",
   "name": {
     "zh-CN": "developerTemplate",
     "en-US": "developerTemplate"
