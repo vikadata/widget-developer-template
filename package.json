@@ -1,6 +1,6 @@
 {
   "name": "developer-template",
-  "version": "0.0.27",
+  "version": "0.0.30",
   "description": "a vika widget",
   "engines": {
     "node": ">=8.x"
@@ -35,5 +35,8 @@
   },
   "devDependencies": {
     "@types/node": "^16.4.10"
-  }
+  },
+  "authorName": "Vika",
+  "authorLink": "https://vika.cn",
+  "authorEmail": "dev@vikadata.com"
 }
