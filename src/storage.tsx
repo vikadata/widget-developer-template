@@ -3,7 +3,6 @@ import { useCloudStorage } from '@vika/widget-sdk';
 import React from 'react';
 
 export const Storage: React.FC = () => {
-  // 新建图表需要的上下文
   const [counter, setCounter] = useCloudStorage('counter', 0);
   const [text, setText] = useCloudStorage('text', '');
 

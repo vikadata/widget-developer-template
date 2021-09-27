@@ -2,7 +2,6 @@ import { useActiveViewId, useMeta, usePrimaryField, useViewMeta } from '@vika/wi
 import React from 'react';
 
 export const Information: React.FC = () => {
-  // 新建图表需要的上下文
   const meta = useMeta();
   const activeViewId = useActiveViewId();
   const view = useViewMeta(activeViewId);
