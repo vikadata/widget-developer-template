@@ -3,8 +3,8 @@
   "spaceId": "spczdmQDfBAn5",
   "entry": "./src/index.tsx",
   "name": {
-    "zh-CN": "developerTemplate",
-    "en-US": "developerTemplate"
+    "zh-CN": "SDK 功能示例",
+    "en-US": "SDK function example"
   },
   "icon": "./package_icon.png",
   "cover": "./cover.png",
@@ -13,8 +13,8 @@
   "authorLink": "https://vika.cn",
   "authorEmail": "dev@vikadata.com",
   "description": {
-    "zh-CN": "developerTemplate 的描述",
-    "en-US": "developerTemplate description"
+    "zh-CN": "展示 widget-sdk 的基础能力，快速了解维格表小组件开发中可以使用的 SDK 功能",
+    "en-US": "Demonstrate the basic capabilities of widget-sdk and quickly understand the SDK features that can be used in Wigglet widget development"
   },
   "globalPackageId": "wpkSybhcxsmGM"
 }
