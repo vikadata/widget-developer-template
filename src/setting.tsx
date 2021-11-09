@@ -1,5 +1,5 @@
 import React from 'react';
-import { useSettingsButton } from '@vika/widget-sdk';
+import { useSettingsButton } from '@vikadata/widget-sdk';
 
 export const Setting: React.FC = () => {
   const [isShowingSettings] = useSettingsButton();

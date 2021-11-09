@@ -1,4 +1,4 @@
-import { useActiveViewId, useMeta, usePrimaryField, useViewMeta } from '@vika/widget-sdk';
+import { useActiveViewId, useMeta, usePrimaryField, useViewMeta } from '@vikadata/widget-sdk';
 import React from 'react';
 
 export const Information: React.FC = () => {

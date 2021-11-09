@@ -1,7 +1,7 @@
-import { Button } from '@vika/components';
+import { Button } from '@vikadata/components';
 import {
   usePrimaryField, useRecords, useExpandRecord, useActiveViewId, useViewport, useSettingsButton
-} from '@vika/widget-sdk';
+} from '@vikadata/widget-sdk';
 import React from 'react';
 
 export const Control: React.FC = () => {

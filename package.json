@@ -28,9 +28,9 @@
   "dependencies": {
     "@types/react": "^16.9.43",
     "@types/react-dom": "^16.9.8",
-    "@vika/components": "^1.0.3",
-    "@vika/icons": "^1.0.3",
-    "@vika/widget-sdk": "^0.0.6",
+    "@vikadata/components": "^0.0.2",
+    "@vikadata/icons": "^0.0.1",
+    "@vikadata/widget-sdk": "^0.0.1",
     "typescript": "^4.1.2"
   },
   "devDependencies": {

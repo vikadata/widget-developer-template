@@ -1,6 +1,6 @@
 import {
   useRecords, useActiveCell, useRecord, useFields, useSelection, useActiveViewId,
-} from '@vika/widget-sdk';
+} from '@vikadata/widget-sdk';
 import React from 'react';
 
 export const Selection: React.FC = () => {

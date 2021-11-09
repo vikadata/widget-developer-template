@@ -1,5 +1,5 @@
-import { Button, TextInput } from '@vika/components';
-import { useCloudStorage } from '@vika/widget-sdk';
+import { Button, TextInput } from '@vikadata/components';
+import { useCloudStorage } from '@vikadata/widget-sdk';
 import React from 'react';
 
 export const Storage: React.FC = () => {
