@@ -5,7 +5,7 @@ import {
 import React from 'react';
 
 export const Control: React.FC = () => {
-  const [isFullscreen, toggleFullscreen] = useViewport();
+  const {isFullscreen, toggleFullscreen} = useViewport();
   const [isShowingSettings, toggleSettings] = useSettingsButton();
   const expandRecord = useExpandRecord();
   const viewId = useActiveViewId();
