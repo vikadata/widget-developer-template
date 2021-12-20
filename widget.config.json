@@ -13,8 +13,8 @@
   "authorLink": "https://vika.cn",
   "authorEmail": "dev@vikadata.com",
   "description": {
-    "zh-CN": "展示 widget-sdk 的基础能力，快速了解维格表小组件开发中可以使用的 SDK 功能",
-    "en-US": "Demonstrate the basic capabilities of widget-sdk and quickly understand the SDK features that can be used in Wigglet widget development"
+    "zh-CN": "从一个有较完整 SDK 功能的小组件开始开发",
+    "en-US": "Start building from a demo widget with common SDK functions"
   },
   "globalPackageId": "wpkSybhcxsmGM"
 }
