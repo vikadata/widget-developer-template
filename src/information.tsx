@@ -8,13 +8,13 @@ export const Information: React.FC = () => {
   const primaryField = usePrimaryField();
   return (
     <div>
-        <h3>组件基本信息</h3>
-        <p>组件包名: {meta?.widgetPackageName}</p>
-        <p>数表名: {meta?.datasheetName}</p>
-        <p>组件实例 ID (widgetId): {meta?.id}</p>
+        <h3>小程序基本信息</h3>
+        <p>小程序包名: {meta?.widgetPackageName}</p>
+        <p>维格表名: {meta?.datasheetName}</p>
+        <p>小程序实例 ID (widgetId): {meta?.id}</p>
         <p>数据来源表 ID (datasheetId): {meta?.datasheetId}</p>
         <p>当前激活的视图: {view?.name}</p>
-        <p>主字段名: {primaryField.name}</p>
+        <p>主字段名: {primaryField?.name}</p>
     </div>
   );
 };

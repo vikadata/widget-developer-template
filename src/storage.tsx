@@ -9,7 +9,7 @@ export const Storage: React.FC = () => {
   return (
     <div>
       <div style={{ flexGrow: 1 }}>
-        <h3>组件数据存储与协同</h3>
+      <h3>小程序数据存储与协同</h3>
         <p>简单计数器，打开多个窗口，数值可以被持久化并且实时协同</p>
         <p>
           Counter: {counter}
