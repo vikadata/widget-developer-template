@@ -15,7 +15,7 @@ export const Control: React.FC = () => {
   return (
     <div>
         <h3>小程序自身 config 控制与读取</h3>
-        <p>第一个 record: {allRecords[0].getCellValueString(primaryField!.id)} <Button size="small" onClick={() => expandRecord({viewId, recordIds: [allRecords[0].id]})}>Expand</Button></p>
+        <p>第一个 record: {allRecords.length && allRecords[0].getCellValueString(primaryField!.id)} <Button size="small" onClick={() => expandRecord({viewId, recordIds: [allRecords.length && allRecords[0].id]})}>Expand</Button></p>
         <p>WidgetFullscreen: {isFullscreen+ ''} <Button size="small" onClick={() => toggleFullscreen()}>Toggle</Button></p>
         <p>
           WidgetSettingOpened（只允许在展开模式下打开）: {isShowingSettings + ''}
