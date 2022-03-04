@@ -16,5 +16,6 @@
     "zh-CN": "从一个有较完整 SDK 功能的小程序开始开发",
     "en-US": "Start building from a demo widget with common SDK functions"
   },
-  "globalPackageId": "wpkSybhcxsmGM"
+  "globalPackageId": "wpkSybhcxsmGM",
+  "sandbox": true
 }
