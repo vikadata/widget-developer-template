@@ -1,5 +1,5 @@
 {
-  "version": "0.0.44",
+  "version": "0.0.45",
   "description": "a vika widget",
   "engines": {
     "node": ">=8.x"
@@ -34,8 +34,5 @@
   },
   "devDependencies": {
     "@types/node": "^16.4.10"
-  },
-  "authorName": "Vika",
-  "authorLink": "https://vika.cn",
-  "authorEmail": "dev@vikadata.com"
+  }
 }
