@@ -1,5 +1,5 @@
-import { Button, TextInput } from '@vikadata/components';
-import { useCloudStorage } from '@vikadata/widget-sdk';
+import { Button, TextInput } from '@apitable/components';
+import { useCloudStorage } from '@apitable/widget-sdk';
 import React from 'react';
 
 export const Storage: React.FC = () => {
@@ -9,8 +9,8 @@ export const Storage: React.FC = () => {
   return (
     <div>
       <div style={{ flexGrow: 1 }}>
-      <h3>小程序数据存储与协同</h3>
-        <p>简单计数器，打开多个窗口，数值可以被持久化并且实时协同</p>
+      <h3>Applet data storage and collaboration</h3>
+        <p>Simple counters, multiple windows open, values can be persisted and collaborated in real time</p>
         <p>
           Counter: {counter}
           <Button size="small" onClick={() => setCounter(counter + 1)}>+</Button>

@@ -8,10 +8,10 @@
   },
   "icon": "./package_icon.png",
   "cover": "./cover.png",
-  "authorName": "Vika",
+  "authorName": "apitable",
   "authorIcon": "./author_icon.png",
-  "authorLink": "https://vika.cn",
-  "authorEmail": "dev@vikadata.com",
+  "authorLink": "https://apitable.com",
+  "authorEmail": "dev@apitable.com",
   "description": {
     "zh-CN": "从一个有较完整 SDK 功能的小程序开始开发",
     "en-US": "Start building from a demo widget with common SDK functions"
