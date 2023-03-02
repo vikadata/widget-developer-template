@@ -33,15 +33,12 @@ jobs:
           ${{ runner.os }}-yarn-
     - name: Install NPM dependencies
       run: yarn install
-    - name: Config git
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
+    - name: Get submit version
+      id: version
+      uses: ashley-taylor/read-json-property-action@v1.0
+      with:
+        path: ./package.json
+        property: version
     - name: Release Template
       run: |
-        npx -y @vikadata/widget-cli release --global --openSource --ci --host ${{ secrets.WIDGET_HOST }} --token ${{ secrets.VIKA_API_TOKEN }}
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+        npx -y @apitable/widget-cli release --global --openSource --ci --host ${{ secrets.WIDGET_HOST }} --token ${{ secrets.VIKA_API_TOKEN }} --version ${{steps.version.outputs.value}}

@@ -1,6 +1,6 @@
 import {
   useRecords, useActiveCell, useRecord, useFields, useSelection, useActiveViewId,
-} from '@vikadata/widget-sdk';
+} from '@apitable/widget-sdk';
 import React from 'react';
 
 export const Selection: React.FC = () => {
@@ -13,9 +13,9 @@ export const Selection: React.FC = () => {
 
   return (
     <div>
-      <h3>选区信息</h3>
-      <p>激活的单元格: {activeCell?.fieldId && activeRecord?.getCellValueString(activeCell?.fieldId) || '_'}</p>
-      <p>选区内容</p>
+      <h3>Selection information: </h3>
+      <p>Activated Cells: {activeCell?.fieldId && activeRecord?.getCellValueString(activeCell?.fieldId) || '_'}</p>
+      <p>Selection Content</p>
       <table>
         <thead>
           <tr>

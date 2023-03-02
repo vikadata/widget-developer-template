@@ -1,7 +1,7 @@
-import { Button } from '@vikadata/components';
+import { Button } from '@apitable/components';
 import {
   usePrimaryField, useRecords, useExpandRecord, useActiveViewId, useViewport, useSettingsButton
-} from '@vikadata/widget-sdk';
+} from '@apitable/widget-sdk';
 import React from 'react';
 
 export const Control: React.FC = () => {
@@ -14,11 +14,11 @@ export const Control: React.FC = () => {
 
   return (
     <div>
-        <h3>小程序自身 config 控制与读取</h3>
-        <p>第一个 record: {allRecords.length && allRecords[0].getCellValueString(primaryField!.id)} <Button size="small" onClick={() => expandRecord({viewId, recordIds: [allRecords.length && allRecords[0].id]})}>Expand</Button></p>
+        <h3>The widget's own config control and reading</h3>
+        <p>First record: {allRecords.length && allRecords[0].getCellValueString(primaryField!.id)} <Button size="small" onClick={() => expandRecord({viewId, recordIds: [allRecords.length && allRecords[0].id]})}>Expand</Button></p>
         <p>WidgetFullscreen: {isFullscreen+ ''} <Button size="small" onClick={() => toggleFullscreen()}>Toggle</Button></p>
         <p>
-          WidgetSettingOpened（只允许在展开模式下打开）: {isShowingSettings + ''}
+          WidgetSettingOpened(only allowed to open in expanded mode): {isShowingSettings + ''}
           <Button size="small" onClick={() => toggleSettings()}>Toggle</Button>
         </p>
     </div>

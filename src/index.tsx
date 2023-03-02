@@ -1,5 +1,5 @@
 import React from 'react';
-import { initializeWidget } from '@vikadata/widget-sdk';
+import { initializeWidget } from '@apitable/widget-sdk';
 import { Information } from './information';
 import { Selection } from './selection';
 import { Setting } from './setting';

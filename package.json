@@ -1,13 +1,13 @@
 {
-  "version": "0.0.46",
-  "description": "a vika widget",
+  "version": "0.0.47",
+  "description": "a apitable widget",
   "engines": {
     "node": ">=8.x"
   },
   "keywords": [
-    "vika",
+    "apitable",
     "widgets",
-    "vika widgets"
+    "apitable widgets"
   ],
   "main": "./dist/index",
   "module": "./dist/index",
@@ -27,9 +27,9 @@
   "dependencies": {
     "@types/react": "^16.9.43",
     "@types/react-dom": "^16.9.8",
-    "@vikadata/components": "latest",
-    "@vikadata/icons": "latest",
-    "@vikadata/widget-sdk": "latest",
+    "@apitable/components": "latest",
+    "@apitable/icons": "latest",
+    "@apitable/widget-sdk": "latest",
     "typescript": "^4.1.2"
   },
   "devDependencies": {
